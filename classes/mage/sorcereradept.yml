@@ -1,0 +1,68 @@
+name: sorcereradept
+default: false
+parents:
+    strong:
+    - sorcerernovice
+primary: true
+secondary: false
+max-level: 5
+max-exp: 1000
+description: An extremely powerful caster, he has sacrificed all of his weapons to cast stronger spells.
+permitted-armor:
+- LEATHER
+- CHAINMAIL
+- GOLD
+permitted-weapon:
+- BOW
+- WOOD_SWORD
+- STONE_SWORD
+- GOLD_SWORD
+- IRON_SWORD
+- DIAMOND_SWORD
+- WOOD_AXE
+- STONE_AXE
+- GOLD_AXE
+- IRON_AXE
+- DIAMOND_AXE
+permitted-skills:
+experience-sources:
+- QUESTING
+permission-skills:
+base-max-health: 20.0
+max-health-per-level: 0.0 
+base-max-mana: 10
+max-mana-per-level: 0
+mana-regen: 1
+mana-regen-per-level: 0.0
+expmodifier: 1.0
+item-damage:
+  #fist
+  air: 2
+  #wood_sword
+  268: 1
+  #stone_sword
+  272: 1
+  #gold_sword
+  283: 1
+  #iron_sword
+  267: 1
+  #diamond_sword
+  276: 1
+  #wood_axe
+  271: 1
+  #stone_axe
+  275: 1
+  #gold_axe
+  286: 1
+  #iron_axe
+  258: 1
+  #diamond_axe
+  279: 1
+item-damage-level: 0.0
+projectile-damage:
+  Arrow: 1
+projectile-damage-level: 0.0
+expLoss: 0
+wildcard-permission: true
+tier: 1
+recipes: [ default ]

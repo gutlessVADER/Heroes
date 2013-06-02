@@ -1,0 +1,68 @@
+name: sharpshooter
+default: false
+parents:
+    strong:
+    - battlearchermaster (all archer master classes)
+primary: true
+secondary: false
+max-level: 5
+max-exp: 1000
+description: Possessing the best shot in the land, he uses his bow to support his allies from afar.
+permitted-armor:
+- LEATHER
+- CHAINMAIL
+- GOLD
+permitted-weapon:
+- BOW
+- WOOD_SWORD
+- STONE_SWORD
+- GOLD_SWORD
+- IRON_SWORD
+- DIAMOND_SWORD
+- WOOD_AXE
+- STONE_AXE
+- GOLD_AXE
+- IRON_AXE
+- DIAMOND_AXE
+permitted-skills:
+experience-sources:
+- QUESTING
+permission-skills:
+base-max-health: 20.0
+max-health-per-level: 0
+base-max-mana: 10
+max-mana-per-level: 0
+mana-regen: 1
+mana-regen-per-level: 0
+expmodifier: 1.0
+item-damage:
+  #fist
+  air: 2
+  #wood_sword
+  268: 3
+  #stone_sword
+  272: 4
+  #gold_sword
+  283: 5
+  #iron_sword
+  267: 1
+  #diamond_sword
+  276: 1
+  #wood_axe
+  271: 1
+  #stone_axe
+  275: 1	
+  #gold_axe
+  286: 1
+  #iron_axe
+  258: 1
+  #diamond_axe
+  279: 1
+item-damage-level: 0
+projectile-damage:
+  Arrow: 10
+projectile-damage-level:0
+expLoss: 0
+wildcard-permission: true
+tier: 1
+recipes: [ default ]
