@@ -1,16 +1,17 @@
-name: ShadowbladeAdept
+name: Mauler
 default: false
 parents:
     strong:
-    - ShadowbladeNovice
+    - Bandit
 primary: true
 secondary: false
 max-level: 5
 max-exp: 1000
-description: Lurks in the shadows and waits to take his enemies down by blade or spell.
+description: A bloodthirsty savage, his axes can crush a man's skull in one blow.
 permitted-armor:
 - LEATHER
 - CHAINMAIL
+- GOLD
 permitted-weapon:
 - WOOD
 - STONE
@@ -22,7 +23,7 @@ experience-sources:
 - QUESTING
 permission-skills:
 base-max-health: 20.0
-max-health-per-level: 0 
+max-health-per-level: 0
 base-max-mana: 10
 max-mana-per-level: 0
 mana-regen: 1
@@ -30,23 +31,23 @@ mana-regen-per-level: 0
 expmodifier: 1.0
 item-damage:
   #fist
-  air: 1
+  air: 2
   #wood_sword
   268: 3
   #stone_sword
   272: 4
   #gold_sword
-  283: 5
+  283: 1
   #iron_sword
-  267: 6
+  267: 1
   #diamond_sword
   276: 1
   #wood_axe
-  271: 1
+  271: 4
   #stone_axe
-  275: 1
+  275: 5
   #gold_axe
-  286: 1
+  286: 6
   #iron_axe
   258: 1
   #diamond_axe
@@ -57,5 +58,5 @@ projectile-damage:
 projectile-damage-level: 0
 expLoss: 0
 wildcard-permission: true
-tier: 5
+tier: 1
 recipes: [ default ]

@@ -1,16 +1,17 @@
-name: ShadowbladeAdept
+name: IllusionistMaster
 default: false
 parents:
     strong:
-    - ShadowbladeNovice
+    - IllusionistAdept
 primary: true
 secondary: false
 max-level: 5
 max-exp: 1000
-description: Lurks in the shadows and waits to take his enemies down by blade or spell.
+description: A trained killer, bow and sword in hand he stalks his prey waiting for a chance to kill.
 permitted-armor:
 - LEATHER
 - CHAINMAIL
+- GOLD
 permitted-weapon:
 - WOOD
 - STONE
@@ -22,7 +23,7 @@ experience-sources:
 - QUESTING
 permission-skills:
 base-max-health: 20.0
-max-health-per-level: 0 
+max-health-per-level: 0
 base-max-mana: 10
 max-mana-per-level: 0
 mana-regen: 1
@@ -53,9 +54,9 @@ item-damage:
   279: 1
 item-damage-level: 0
 projectile-damage:
-  Arrow: 1
+  Arrow: 10
 projectile-damage-level: 0
 expLoss: 0
 wildcard-permission: true
-tier: 5
+tier: 6
 recipes: [ default ]

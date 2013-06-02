@@ -1,8 +1,8 @@
-name: barbarianadept
+name: BarbarianAdept
 default: false
 parents:
     strong:
-    - barbariannovice
+    - BarbarianNovice
 primary: true
 secondary: false
 max-level: 5
@@ -14,17 +14,11 @@ permitted-armor:
 - GOLD
 - IRON
 permitted-weapon:
-- BOW
-- WOOD_SWORD
-- STONE_SWORD
-- GOLD_SWORD
-- IRON_SWORD
-- DIAMOND_SWORD
-- WOOD_AXE
-- STONE_AXE
-- GOLD_AXE
-- IRON_AXE
-- DIAMOND_AXE
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
@@ -44,7 +38,7 @@ item-damage:
   #stone_sword
   272: 4
   #gold_sword
-  283: 5
+  283: 1
   #iron_sword
   267: 1
   #diamond_sword
@@ -58,7 +52,7 @@ item-damage:
   #iron_axe
   258: 7
   #diamond_axe
-  279: 1
+  279: 8
 item-damage-level: 0
 projectile-damage:
   Arrow: 1

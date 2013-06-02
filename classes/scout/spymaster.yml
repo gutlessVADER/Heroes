@@ -1,13 +1,13 @@
-name: ShadowbladeAdept
+name: SpyMaster
 default: false
 parents:
     strong:
-    - ShadowbladeNovice
+    - Spy
 primary: true
 secondary: false
 max-level: 5
 max-exp: 1000
-description: Lurks in the shadows and waits to take his enemies down by blade or spell.
+description: He heads through life with subtle movements, lurking in the shadows for protection.
 permitted-armor:
 - LEATHER
 - CHAINMAIL
@@ -22,7 +22,7 @@ experience-sources:
 - QUESTING
 permission-skills:
 base-max-health: 20.0
-max-health-per-level: 0 
+max-health-per-level: 0
 base-max-mana: 10
 max-mana-per-level: 0
 mana-regen: 1
@@ -57,5 +57,5 @@ projectile-damage:
 projectile-damage-level: 0
 expLoss: 0
 wildcard-permission: true
-tier: 5
+tier: 3
 recipes: [ default ]

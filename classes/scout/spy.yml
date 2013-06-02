@@ -1,13 +1,13 @@
-name: ShadowbladeAdept
+name: Spy
 default: false
 parents:
     strong:
-    - ShadowbladeNovice
+    - Scout
 primary: true
 secondary: false
 max-level: 5
 max-exp: 1000
-description: Lurks in the shadows and waits to take his enemies down by blade or spell.
+description: He heads through life with subtle movements, lurking in the shadows for protection.
 permitted-armor:
 - LEATHER
 - CHAINMAIL
@@ -22,7 +22,7 @@ experience-sources:
 - QUESTING
 permission-skills:
 base-max-health: 20.0
-max-health-per-level: 0 
+max-health-per-level: 0
 base-max-mana: 10
 max-mana-per-level: 0
 mana-regen: 1
@@ -38,7 +38,7 @@ item-damage:
   #gold_sword
   283: 5
   #iron_sword
-  267: 6
+  267: 1
   #diamond_sword
   276: 1
   #wood_axe
@@ -57,5 +57,5 @@ projectile-damage:
 projectile-damage-level: 0
 expLoss: 0
 wildcard-permission: true
-tier: 5
+tier: 2
 recipes: [ default ]
