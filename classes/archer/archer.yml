@@ -1,8 +1,8 @@
-name: archer
+name: Archer
 default: false
 parents:
     strong:
-    - bandit
+    - Bandit
 primary: true
 secondary: false
 max-level: 5
@@ -12,8 +12,11 @@ permitted-armor:
 - LEATHER
 permitted-weapon:
 - BOW
-- WOOD_SWORD
-- STONE_SWORD
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
@@ -27,7 +30,7 @@ mana-regen-per-level: 0.0
 expmodifier: 1.0
 item-damage:
   #fist
-  air: 2
+  air: 1
   #wood_sword
   268: 3
   #stone_sword
@@ -54,5 +57,5 @@ projectile-damage:
 projectile-damage-level:0.0
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 2
 recipes: [ default ]

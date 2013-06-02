@@ -1,13 +1,13 @@
-name: SorcererAdept
+name: BattlemageAdept
 default: false
 parents:
     strong:
-    - SorcererNovice
+    - BattlemageNovice
 primary: true
 secondary: false
 max-level: 5
 max-exp: 1000
-description: An extremely powerful caster, he has sacrificed all of his weapons to cast stronger spells.
+description: A warrior who thrives in the heat of battle, he uses axes and spells to vanquish his foes.
 permitted-armor:
 - LEATHER
 - CHAINMAIL
@@ -23,7 +23,7 @@ experience-sources:
 - QUESTING
 permission-skills:
 base-max-health: 20.0
-max-health-per-level: 0.0 
+max-health-per-level: 0.0
 base-max-mana: 10
 max-mana-per-level: 0
 mana-regen: 1
@@ -33,21 +33,21 @@ item-damage:
   #fist
   air: 1
   #wood_sword
-  268: 1
+  268: 3
   #stone_sword
-  272: 1
+  272: 4
   #gold_sword
-  283: 1
+  283: 5
   #iron_sword
   267: 1
   #diamond_sword
   276: 1
   #wood_axe
-  271: 1
+  271: 4
   #stone_axe
-  275: 1
+  275: 5
   #gold_axe
-  286: 1
+  286: 6
   #iron_axe
   258: 1
   #diamond_axe

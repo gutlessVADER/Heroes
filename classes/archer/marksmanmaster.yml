@@ -1,34 +1,29 @@
-name: battlemagenovice
+name: MarksmanMaster
 default: false
 parents:
     strong:
-    - mage
+    - Marksman
 primary: true
 secondary: false
 max-level: 5
 max-exp: 1000
-description: A warrior who thrives in the heat of battle, he uses axes and spells to vanquish his foes.
+description: A developing shooter, yet still young in the ways of archery.
 permitted-armor:
 - LEATHER
 - CHAINMAIL
 permitted-weapon:
 - BOW
-- WOOD_SWORD
-- STONE_SWORD
-- GOLD_SWORD
-- IRON_SWORD
-- DIAMOND_SWORD
-- WOOD_AXE
-- STONE_AXE
-- GOLD_AXE
-- IRON_AXE
-- DIAMOND_AXE
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
 permission-skills:
 base-max-health: 20.0
-max-health-per-level: 0.0 
+max-health-per-level: 0.0
 base-max-mana: 10
 max-mana-per-level: 0
 mana-regen: 1
@@ -36,7 +31,7 @@ mana-regen-per-level: 0.0
 expmodifier: 1.0
 item-damage:
   #fist
-  air: 2
+  air: 1
   #wood_sword
   268: 3
   #stone_sword
@@ -48,9 +43,9 @@ item-damage:
   #diamond_sword
   276: 1
   #wood_axe
-  271: 4
+  271: 1
   #stone_axe
-  275: 5
+  275: 1	
   #gold_axe
   286: 1
   #iron_axe
@@ -59,9 +54,9 @@ item-damage:
   279: 1
 item-damage-level: 0.0
 projectile-damage:
-  Arrow: 1
-projectile-damage-level: 0.0
+  Arrow: 10
+projectile-damage-level:0.0
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 3
 recipes: [ default ]

@@ -1,8 +1,12 @@
-name: archmage
+name: Archmage
 default: false
 parents:
-    strong:
-    - sorcerermaster (all master mage classes)
+    weak:
+    - SorcererMaster
+    - BattlemageMaster
+    - WitchhunterMaster
+    - ClericMaster
+    - NightbladeMaster
 primary: true
 secondary: false
 max-level: 5
@@ -13,17 +17,11 @@ permitted-armor:
 - CHAINMAIL
 - GOLD
 permitted-weapon:
-- BOW
-- WOOD_SWORD
-- STONE_SWORD
-- GOLD_SWORD
-- IRON_SWORD
-- DIAMOND_SWORD
-- WOOD_AXE
-- STONE_AXE
-- GOLD_AXE
-- IRON_AXE
-- DIAMOND_AXE
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
@@ -37,15 +35,15 @@ mana-regen-per-level: 0.15
 expmodifier: 1.0
 item-damage:
   #fist
-  air: 2
+  air: 1
   #wood_sword
   268: 3
   #stone_sword
   272: 4
   #gold_sword
-  283: 5
+  283: 1
   #iron_sword
-  267: 6
+  267: 1
   #diamond_sword
   276: 1
   #wood_axe
@@ -64,5 +62,5 @@ projectile-damage:
 projectile-damage-level: 0.0
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 7
 recipes: [ default ]

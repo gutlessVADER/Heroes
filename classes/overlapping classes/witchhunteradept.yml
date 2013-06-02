@@ -1,8 +1,8 @@
-name: witchhunteradept
+name: WitchhunterAdept
 default: false
 parents:
     strong:
-    - witchhunternovice
+    - WitchhunterNovice
 primary: true
 secondary: false
 max-level: 5
@@ -13,16 +13,11 @@ permitted-armor:
 - CHAINMAIL
 permitted-weapon:
 - BOW
-- WOOD_SWORD
-- STONE_SWORD
-- GOLD_SWORD
-- IRON_SWORD
-- DIAMOND_SWORD
-- WOOD_AXE
-- STONE_AXE
-- GOLD_AXE
-- IRON_AXE
-- DIAMOND_AXE
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
@@ -36,7 +31,7 @@ mana-regen-per-level: 0
 expmodifier: 1.0
 item-damage:
   #fist
-  air: 2
+  air: 1
   #wood_sword
   268: 3
   #stone_sword
@@ -63,5 +58,5 @@ projectile-damage:
 projectile-damage-level:0.0
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 5
 recipes: [ default ]

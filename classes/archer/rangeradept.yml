@@ -1,18 +1,19 @@
-name: SorcererAdept
+name: RangerAdept
 default: false
 parents:
     strong:
-    - SorcererNovice
+    - RangerNovice
 primary: true
 secondary: false
 max-level: 5
 max-exp: 1000
-description: An extremely powerful caster, he has sacrificed all of his weapons to cast stronger spells.
+description: A developing shooter, yet still young in the ways of archery.
 permitted-armor:
 - LEATHER
 - CHAINMAIL
 - GOLD
 permitted-weapon:
+- BOW
 - WOOD
 - STONE
 - GOLD
@@ -23,7 +24,7 @@ experience-sources:
 - QUESTING
 permission-skills:
 base-max-health: 20.0
-max-health-per-level: 0.0 
+max-health-per-level: 0.0
 base-max-mana: 10
 max-mana-per-level: 0
 mana-regen: 1
@@ -33,11 +34,11 @@ item-damage:
   #fist
   air: 1
   #wood_sword
-  268: 1
+  268: 3
   #stone_sword
-  272: 1
+  272: 4
   #gold_sword
-  283: 1
+  283: 5
   #iron_sword
   267: 1
   #diamond_sword
@@ -45,7 +46,7 @@ item-damage:
   #wood_axe
   271: 1
   #stone_axe
-  275: 1
+  275: 1	
   #gold_axe
   286: 1
   #iron_axe
@@ -54,8 +55,8 @@ item-damage:
   279: 1
 item-damage-level: 0.0
 projectile-damage:
-  Arrow: 1
-projectile-damage-level: 0.0
+  Arrow: 10
+projectile-damage-level:0.0
 expLoss: 0
 wildcard-permission: true
 tier: 5

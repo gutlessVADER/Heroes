@@ -1,8 +1,8 @@
-name: SorcererAdept
+name: NightbladeNovice
 default: false
 parents:
     strong:
-    - SorcererNovice
+    - MageMaster
 primary: true
 secondary: false
 max-level: 5
@@ -11,7 +11,6 @@ description: An extremely powerful caster, he has sacrificed all of his weapons 
 permitted-armor:
 - LEATHER
 - CHAINMAIL
-- GOLD
 permitted-weapon:
 - WOOD
 - STONE
@@ -23,7 +22,7 @@ experience-sources:
 - QUESTING
 permission-skills:
 base-max-health: 20.0
-max-health-per-level: 0.0 
+max-health-per-level: 0.0
 base-max-mana: 10
 max-mana-per-level: 0
 mana-regen: 1
@@ -33,11 +32,11 @@ item-damage:
   #fist
   air: 1
   #wood_sword
-  268: 1
+  268: 3
   #stone_sword
-  272: 1
+  272: 4
   #gold_sword
-  283: 1
+  283: 5
   #iron_sword
   267: 1
   #diamond_sword
@@ -58,5 +57,5 @@ projectile-damage:
 projectile-damage-level: 0.0
 expLoss: 0
 wildcard-permission: true
-tier: 5
+tier: 4
 recipes: [ default ]

@@ -1,4 +1,4 @@
-name: prisoner
+name: Prisoner
 default: true
 parents:
     strong:
@@ -49,5 +49,5 @@ projectile-damage:
 projectile-damage-level: 0
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 0
 recipes: [ default ]

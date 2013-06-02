@@ -1,8 +1,8 @@
-name: bandit
+name: Bandit
 default: false
 parents:
     strong:
-    - prisoner
+    - Prisoner
 primary: true
 secondary: false
 max-level: 5
@@ -13,16 +13,11 @@ permitted-armor:
 - CHAINMAIL
 permitted-weapon:
 - BOW
-- WOOD_SWORD
-- STONE_SWORD
-- GOLD_SWORD
-- IRON_SWORD
-- DIAMOND_SWORD
-- WOOD_AXE
-- STONE_AXE
-- GOLD_AXE
-- IRON_AXE
-- DIAMOND_AXE
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
@@ -59,7 +54,7 @@ item-damage:
   279: 1
 item-damage-level: 0
 projectile-damage:
-  Arrow: 1
+  Arrow: 7
 projectile-damage-level: 0
 expLoss: 0
 wildcard-permission: true
