@@ -1,29 +1,23 @@
-name: battlearcheradept
+name: PilgrimAdept
 default: false
 parents:
     strong:
-    - battlearchernovice
+    - PilgrimNovice
 primary: true
 secondary: false
 max-level: 5
 max-exp: 1000
-description: A well-trained archer with a strong armor and love for the heat of battle.
+description: A simple fighter heading out into the world.
 permitted-armor:
 - LEATHER
 - CHAINMAIL
 - GOLD
 permitted-weapon:
-- BOW
-- WOOD_SWORD
-- STONE_SWORD
-- GOLD_SWORD
-- IRON_SWORD
-- DIAMOND_SWORD
-- WOOD_AXE
-- STONE_AXE
-- GOLD_AXE
-- IRON_AXE
-- DIAMOND_AXE
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
@@ -31,13 +25,13 @@ permission-skills:
 base-max-health: 20.0
 max-health-per-level: 0.0
 base-max-mana: 10
-max-mana-per-level: 0
+max-mana-per-level: 0.
 mana-regen: 1
-mana-regen-per-level: 0.0
+mana-regen-per-level: 0.
 expmodifier: 1.0
 item-damage:
   #fist
-  air: 2
+  air: 1
   #wood_sword
   268: 3
   #stone_sword
@@ -51,7 +45,7 @@ item-damage:
   #wood_axe
   271: 1
   #stone_axe
-  275: 1	
+  275: 1
   #gold_axe
   286: 1
   #iron_axe
@@ -60,9 +54,9 @@ item-damage:
   279: 1
 item-damage-level: 0.0
 projectile-damage:
-  Arrow: 10
-projectile-damage-level:0.0
+  Arrow: 1
+projectile-damage-level: 0.0		
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 5
 recipes: [ default ]

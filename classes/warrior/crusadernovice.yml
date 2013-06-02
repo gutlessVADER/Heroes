@@ -1,8 +1,8 @@
-name: crusadernovice
+name: CrusaderNovice
 default: false
 parents:
     strong:
-    - squire
+    - SquireMaster
 primary: true
 secondary: false
 max-level: 5
@@ -11,18 +11,13 @@ description: A fighter who spends his time mastering the art of healing.
 permitted-armor:
 - LEATHER
 - CHAINMAIL
+- GOLD
 permitted-weapon:
-- BOW
-- WOOD_SWORD
-- STONE_SWORD
-- GOLD_SWORD
-- IRON_SWORD
-- DIAMOND_SWORD
-- WOOD_AXE
-- STONE_AXE
-- GOLD_AXE
-- IRON_AXE
-- DIAMOND_AXE
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
@@ -42,7 +37,7 @@ item-damage:
   #stone_sword
   272: 4
   #gold_sword
-  283: 5
+  283: 1
   #iron_sword
   267: 1
   #diamond_sword
@@ -63,5 +58,5 @@ projectile-damage:
 projectile-damage-level: 0
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 4
 recipes: [ default ]

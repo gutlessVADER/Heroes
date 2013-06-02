@@ -1,27 +1,25 @@
-name: spellswordnovice
+name: BattlearcherMaster
 default: false
 parents:
     strong:
-    - squire
+    - BattlearcherAdept
 primary: true
 secondary: false
 max-level: 5
 max-exp: 1000
-description: A swordsman with a growing knowledge of dark magic.
+description: A well-trained archer with a strong armor and love for the heat of battle.
 permitted-armor:
 - LEATHER
+- CHAINMAIL
+- GOLD
+- IRON
 permitted-weapon:
 - BOW
-- WOOD_SWORD
-- STONE_SWORD
-- GOLD_SWORD
-- IRON_SWORD
-- DIAMOND_SWORD
-- WOOD_AXE
-- STONE_AXE
-- GOLD_AXE
-- IRON_AXE
-- DIAMOND_AXE
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
@@ -29,19 +27,19 @@ permission-skills:
 base-max-health: 20.0
 max-health-per-level: 0.0
 base-max-mana: 10
-max-mana-per-level: 0.0
+max-mana-per-level: 0
 mana-regen: 1
 mana-regen-per-level: 0.0
 expmodifier: 1.0
 item-damage:
   #fist
-  air: 1
+  air: 2
   #wood_sword
   268: 3
   #stone_sword
   272: 4
   #gold_sword
-  283: 1
+  283: 5
   #iron_sword
   267: 1
   #diamond_sword
@@ -49,7 +47,7 @@ item-damage:
   #wood_axe
   271: 1
   #stone_axe
-  275: 1
+  275: 1	
   #gold_axe
   286: 1
   #iron_axe
@@ -58,9 +56,9 @@ item-damage:
   279: 1
 item-damage-level: 0.0
 projectile-damage:
-  Arrow: 1
-projectile-damage-level: 0.0		
+  Arrow: 7
+projectile-damage-level:0.0
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 6
 recipes: [ default ]

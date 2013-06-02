@@ -1,39 +1,43 @@
-name: archer
+name: SquireMaster
 default: false
 parents:
     strong:
-    - bandit
+    - Squire
 primary: true
 secondary: false
 max-level: 5
 max-exp: 1000
-description: A young man who dedicates his time to training with his bow.
+description: A brawler just learning the ways of the sword.
 permitted-armor:
 - LEATHER
+- CHAINMAIL
+- GOLD
 permitted-weapon:
-- BOW
-- WOOD_SWORD
-- STONE_SWORD
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
 permission-skills:
 base-max-health: 20.0
-max-health-per-level: 0.0 
+max-health-per-level: 0.0
 base-max-mana: 10
-max-mana-per-level: 0
+max-mana-per-level: 0.
 mana-regen: 1
-mana-regen-per-level: 0.0
+mana-regen-per-level: 0.
 expmodifier: 1.0
 item-damage:
   #fist
-  air: 2
+  air: 1
   #wood_sword
   268: 3
   #stone_sword
-  272: 1
+  272: 4
   #gold_sword
-  283: 1
+  283: 5
   #iron_sword
   267: 1
   #diamond_sword
@@ -41,7 +45,7 @@ item-damage:
   #wood_axe
   271: 1
   #stone_axe
-  275: 1	
+  275: 1
   #gold_axe
   286: 1
   #iron_axe
@@ -50,9 +54,9 @@ item-damage:
   279: 1
 item-damage-level: 0.0
 projectile-damage:
-  Arrow: 10
-projectile-damage-level:0.0
+  Arrow: 1
+projectile-damage-level: 0.0		
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 3
 recipes: [ default ]

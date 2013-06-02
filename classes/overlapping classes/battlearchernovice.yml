@@ -1,25 +1,30 @@
-name: archer
+name: BattlearcherNovice
 default: false
 parents:
-    strong:
-    - bandit
+    weak:
+    - MarksmanMaster
+    - SquireMaster
 primary: true
 secondary: false
 max-level: 5
 max-exp: 1000
-description: A young man who dedicates his time to training with his bow.
+description: A well-trained archer with a strong armor and love for the heat of battle.
 permitted-armor:
 - LEATHER
+- CHAINMAIL
 permitted-weapon:
 - BOW
-- WOOD_SWORD
-- STONE_SWORD
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
 permission-skills:
 base-max-health: 20.0
-max-health-per-level: 0.0 
+max-health-per-level: 0.0
 base-max-mana: 10
 max-mana-per-level: 0
 mana-regen: 1
@@ -31,7 +36,7 @@ item-damage:
   #wood_sword
   268: 3
   #stone_sword
-  272: 1
+  272: 4
   #gold_sword
   283: 1
   #iron_sword
@@ -50,9 +55,9 @@ item-damage:
   279: 1
 item-damage-level: 0.0
 projectile-damage:
-  Arrow: 10
+  Arrow: 3
 projectile-damage-level:0.0
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 4
 recipes: [ default ]

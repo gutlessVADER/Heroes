@@ -1,8 +1,12 @@
-name: templar
+name: Templar
 default: false
 parents:
-    strong:
-    - knightmaster (all warrior master classes)
+    weak:
+    - KnightMaster
+    - SpellswordMaster
+    - BattlearcherMaster
+    - CrusaderMaster
+    - PilgrimMaster
 primary: true
 secondary: false
 max-level: 5
@@ -15,17 +19,11 @@ permitted-armor:
 - IRON
 - DIAMOND
 permitted-weapon:
-- BOW
-- WOOD_SWORD
-- STONE_SWORD
-- GOLD_SWORD
-- IRON_SWORD
-- DIAMOND_SWORD
-- WOOD_AXE
-- STONE_AXE
-- GOLD_AXE
-- IRON_AXE
-- DIAMOND_AXE
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
@@ -66,5 +64,5 @@ projectile-damage:
 projectile-damage-level: 0
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 7
 recipes: [ default ]

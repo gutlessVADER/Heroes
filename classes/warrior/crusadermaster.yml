@@ -1,8 +1,8 @@
-name: crusadermaster
+name: CrusaderMaster
 default: false
 parents:
     strong:
-    - crusaderadept
+    - CrusaderAdept
 primary: true
 secondary: false
 max-level: 5
@@ -13,18 +13,13 @@ permitted-armor:
 - CHAINMAIL
 - GOLD
 - IRON
+- DIAMOND
 permitted-weapon:
-- BOW
-- WOOD_SWORD
-- STONE_SWORD
-- GOLD_SWORD
-- IRON_SWORD
-- DIAMOND_SWORD
-- WOOD_AXE
-- STONE_AXE
-- GOLD_AXE
-- IRON_AXE
-- DIAMOND_AXE
+- WOOD
+- STONE
+- GOLD
+- IRON
+- DIAMOND
 permitted-skills:
 experience-sources:
 - QUESTING
@@ -46,7 +41,7 @@ item-damage:
   #gold_sword
   283: 5
   #iron_sword
-  267: 6
+  267: 1
   #diamond_sword
   276: 1
   #wood_axe
@@ -65,5 +60,5 @@ projectile-damage:
 projectile-damage-level: 0
 expLoss: 0
 wildcard-permission: true
-tier: 1
+tier: 6
 recipes: [ default ]
