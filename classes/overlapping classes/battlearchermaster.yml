@@ -57,7 +57,7 @@ item-damage:
 item-damage-level: 0.0
 projectile-damage:
   Arrow: 7
-projectile-damage-level:0.0
+projectile-damage-level: 0.0
 expLoss: 0
 wildcard-permission: true
 tier: 6

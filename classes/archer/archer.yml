@@ -22,7 +22,7 @@ experience-sources:
 - QUESTING
 permission-skills:
 base-max-health: 20.0
-max-health-per-level: 0.0 
+max-health-per-level: 0.0
 base-max-mana: 10
 max-mana-per-level: 0
 mana-regen: 1
@@ -54,7 +54,7 @@ item-damage:
 item-damage-level: 0.0
 projectile-damage:
   Arrow: 10
-projectile-damage-level:0.0
+projectile-damage-level: 0.0
 expLoss: 0
 wildcard-permission: true
 tier: 2
